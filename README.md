@@ -1,1 +1,1 @@
-react + webpack + sass
+react + webpack + babel
