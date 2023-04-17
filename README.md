@@ -1,1 +1,1 @@
-# rickyandmorty-api
+react + webpack + sass
