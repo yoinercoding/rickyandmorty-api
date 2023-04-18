@@ -2,7 +2,8 @@ import "./App.scss"
 import React, { Fragment } from "react";
 import Header from "./components/header";
 import Characters from "./components/characters";
-import { StrictMode } from "react";
+import './main.sass'
+import './components/header.css'
 
 function App() {
     return (
