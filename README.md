@@ -1,1 +1,1 @@
-react + webpack + babel
+Rick and Morty API
