@@ -1,4 +1,4 @@
-import "./App.scss"
+import "./App.css"
 import React, { Fragment } from "react";
 import Header from "./components/header";
 import Characters from "./components/characters";
