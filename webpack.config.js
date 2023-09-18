@@ -31,7 +31,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|ico)$/i,
         use:  [{
             loader: 'file-loader',
             options: {
@@ -92,6 +92,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      favicon: './src/favicon.ico'
     }),
   ],
 };
